@@ -4,7 +4,9 @@ If you do not have admin privelege on a PC, you are not able to  install all the
 
 RunSketchUp.bat - Starts SketchUp and looks in the current directory for the "load_plugins.rb" file.
 
-load_plugins.rb - Loads all .rb files, looks in the current directory for the "Plugins" folder.
+load_plugins.rb - Loads all .rb files, looks in the current directory for the "Plugins" folder. *
 
 Plugins/ - Put your portable plugins here.
+
+* Can be substituted by Fredo's 000_AdditionalPluginFolders.rb script. 
 
