@@ -10,3 +10,6 @@ Plugins/ - Put your portable plugins here.
 
 * Can be substituted by Fredo's 000_AdditionalPluginFolders.rb script. 
 
+
+It is possible to associate .skp files to the .bat file. This way, double-clicking a .skp model will open SketchUp and load your pugins. However, this will change the icon overlay for .skp files.
+
