@@ -2,7 +2,7 @@
 
 Windows script file to launch SketchUp and load plugins from a portable location.
 
-If you do not have admin privelege on a PC, you are not able to  install all the great SketchUp plugins out there. I wanted a shortcut to start SketchUp and load my plugins.
+If you do not have admin privilege on a PC, you are not able to  install all the great SketchUp plugins out there. I wanted a shortcut to start SketchUp and load my plugins.
 
 * RunSketchUp.bat - Starts SketchUp and looks in the current directory for the "load_plugins.rb" file.
 
