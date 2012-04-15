@@ -13,3 +13,4 @@ Plugins/ - Put your portable plugins here.
 
 It is possible to associate .skp files to the .bat file. This way, double-clicking a .skp model will open SketchUp and load your pugins. However, this will change the icon overlay for .skp files.
 
+Another possible use of these script is to create sets of plugins to load depending on what type of activity you are doing in SketchUp.
