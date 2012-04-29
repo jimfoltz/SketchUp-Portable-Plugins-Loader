@@ -7,8 +7,15 @@
 
 @echo off
 
+:: Find Corrext Program Files folder on 32 and 64 bit Windows.
+if defined ProgramFiles(x86) (
+  set PF=%ProgramFiles(x86)%
+) else (
+  set PF=%ProgramFiles%
+)
+
 start /b "SketchUp" ^
-  "%ProgramFiles%\Google\Google SketchUp 8\Sketchup.exe" ^
+  "%PF%\Google\Google SketchUp 8\Sketchup.exe" ^
   -RubyStartup "%~dp0%\load_plugins.rb" ^
   "%~1"
 
